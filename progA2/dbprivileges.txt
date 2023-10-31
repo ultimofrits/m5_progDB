@@ -1,0 +1,17 @@
+CREATE: het create recht is handig als de user iets nieuws wil maken: zoals tables, views, indexes, en procedures. ook kan je iets makkelijker stylen. 
+
+ALTER: het alter recht laat users al bestaande objecten veranderen. 
+
+DROP: dit laat users al bestaande objecten in de database verwijderen. dit is ongeloofelijk handig in meerdere opzichten. maar het is wel belangrijk dat hier niet te veel mee wordt gedaan.
+
+GRANT: hiermee kan een user privileges toe schrijven aan andere users en deze ook weer verwijderen. dit is meestal een privilege die alleen adminstrators toe geschreven krijgen. 
+
+
+CREATE: met create kan je dus nieuwe objecten aanmaken in een database. 
+
+ALTER: dit laat users al bestaande objecten veranderen, dit kan dus ongeloofelijk handig zijn als je een column en/of iets wat al bestaat wilt aanpassen
+
+hacker usecases voor CREATE: een hacker kan gevaarlijke tables en column toevoegen. dit kan gebruikt worden om private informatie te verspreiden. ook kan dit worden gebruikt voor sql injectie
+
+hacker usecases voor DROP: de meest voor de handliggende optie van de drop privilege om complete databases te verwijderen, dit kan enorm gevaarlijk zijn. ik kan dit tegen iemand worden gebruikt door ze hiermee macht mee uitteoefenen op de echte eigenaar. 
+
